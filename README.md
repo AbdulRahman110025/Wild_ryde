@@ -1,4 +1,4 @@
-Ride-application
+## Overview
 
 In this project we will going to build serverless web Application using aws service. i have used codecommit for git repository platform. I have used amplify to create static website . so amplify is basically manage all the web contents and will allow the users to access your web application through URL exposed by amplify. so you dont need to buy your domain for your application . i have installed aws CLI in this so that i can bring all the files related to the project write AWS configure and enter access key and security key of IAM user after that write " git clone "url"" it would tell you that your repository is empty to get access to web contents there is the publicly available s3 bucket and for that you need to write tghe following command: aws s3 cp s3://wildrydes-us-east-1/WebApplication/1_StaticWebHosting/website ./ --recursive then add , commit and push the file in repo.
 
